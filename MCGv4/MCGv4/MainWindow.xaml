@@ -1,0 +1,56 @@
+﻿<Window x:Class="MCGv4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+         Title="Mega Card Game 2000" Height="502.921" Width="525">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="ImageButtonStyle">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <ContentPresenter/>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid RenderTransformOrigin="0.498,0.463">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" VerticalAlignment="Center" FontFamily="Trebuchet MS" FontWeight="Bold" FontSize="45" Foreground="Black" Height="78" Margin="10,30,0,10">
+            MEGA CARD GAME 2000
+        </Label>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="3" >
+            <Button Style="{StaticResource ImageButtonStyle}" Click="Thief_Click" Width="128">
+                <Image Source="C:\Users\fadi\Desktop\More Files\Uni\Code\Verison 3\MCG\MCG\Images\Class\Thief.png" 
+                ToolTip="Thief Class : Special Attack Back Stab                                 Success Rate: 1/3 of hitting,                                  Success: x2 Damage                                  Failed: 1% extra Damage." Margin="0,0,0,10" />
+            </Button>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Content="Thief" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="3" >
+            <Button Style="{StaticResource ImageButtonStyle}" Click="Mage_Click" Width="128">
+                <Image Source="C:\Users\fadi\Desktop\More Files\Uni\Code\Verison 3\MCG\MCG\Images\Class\mage_role.png" 
+                 ToolTip="Mage Class : Special Attack Fireball                                  Success Rate: 1/3 of hitting,                                  Success: x4 Damage                                  Failed: Mage Takes Damage." Margin="0,0,0,10" />
+            </Button>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Content="Mage" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center" Margin="161,2,168,4" >
+            <Button Style="{StaticResource ImageButtonStyle}" Click="Warrior_Click" Width="128">
+                <Image Source="C:\Users\fadi\Desktop\More Files\Uni\Code\Verison 3\MCG\MCG\Images\Class\Warrior.png" 
+                 ToolTip="Warrior Class : Special Attack Warrior                                  Success Rate: ½ of hitting,                                  Success: x4 Damage                                  Failed: Attack Missed." Margin="0,0,0,10" />
+            </Button>
+            <Label HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="20" Content="Warrior" Margin="0,38" Width="84" />
+        </StackPanel>
+
+    </Grid>
+</Window>

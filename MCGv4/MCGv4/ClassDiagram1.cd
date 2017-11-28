@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MCGv4.App" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Battle" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAgAAAAAAAAAAAAAAAABABAAAAAAA=</HashCode>
+      <FileName>Battle.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MCGv4.MainWindow" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAABAAAAAAAAAAAAABEAAAAAA=</HashCode>
+      <FileName>MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="MCGv4.Classes.Attack.Attack1" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Attack\Attack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Attack.NormalAttack" Collapsed="true">
+    <Position X="7.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Attack\NormalAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Attack.Special.Back_Stab" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Attack\Special\Back Stab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Attack.Special.Berserk" Collapsed="true">
+    <Position X="2.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Attack\Special\Berserk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Attack.Special.Fireball" Collapsed="true">
+    <Position X="5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Attack\Special\Fireball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.SpecialAttack" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Classes\Attack\SpecialAttack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Game_Controller" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAIAAAAAAAAAAAABAAAAAQAAAAI=</HashCode>
+      <FileName>Classes\Game_Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Frigther.Character" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAIAAAQAAAAAQAA=</HashCode>
+      <FileName>Classes\Frigther\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Frigther.NPC" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Frigther\NPC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Frigther.Player" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAABAAAAIAAAAAAA=</HashCode>
+      <FileName>Classes\Frigther\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Frigther.Class.Mage" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Frigther\Class\Mage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Frigther.Class.Thief" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Frigther\Class\Thief.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Classes.Frigther.Class.Warrior" Collapsed="true">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Frigther\Class\Warrior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Properties.Resources" Collapsed="true">
+    <Position X="11.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MCGv4.Properties.Settings" Collapsed="true">
+    <Position X="13.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

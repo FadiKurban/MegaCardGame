@@ -1,0 +1,18 @@
+﻿<Application x:Class="MCGv4.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:MCGv4"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="{x:Type ToolTip}">
+            <Setter Property="OverridesDefaultStyle" Value="True" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type ToolTip}" >
+                        <TextBox Background="LightBlue" Width="200" TextWrapping="WrapWithOverflow" Text="{TemplateBinding ToolTip.Content}" />
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Application.Resources>
+</Application>
